@@ -17,4 +17,8 @@ describe 'fizz_buzz' do
         expect(fizz_buzz(15)).to eq 'FizzBuzz!'
     end
 
+    it 'returns put a regular number if number is <= 0' do
+        expect(fizz_buzz(-1)).to eq 'A-a! Put a regular number'
+    end
+
 end

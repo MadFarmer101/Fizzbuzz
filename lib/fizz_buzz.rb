@@ -1,6 +1,8 @@
 def fizz_buzz(number)
 
-    if number%15 == 0
+    if number <= 0
+    "A-a! Put a regular number" 
+    elsif number%15 == 0
     "FizzBuzz!"
     elsif number%3 == 0
         "Fizz!"
