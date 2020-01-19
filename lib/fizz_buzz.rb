@@ -10,3 +10,6 @@ def fizz_buzz(number)
     number
     end
 end
+
+output = []
+100.times {|number| output << fizz_buzz(number+1)}
